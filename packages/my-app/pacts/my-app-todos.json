@@ -19,7 +19,6 @@
         },
         "body": [
           {
-            "id": "ce118b6e-d8e1-11e7-9296-cec278b6b50a",
             "description": "my todo description"
           }
         ],
@@ -29,10 +28,6 @@
           },
           "$.body[*].*": {
             "match": "type"
-          },
-          "$.body[*].id": {
-            "match": "regex",
-            "regex": "^[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}$"
           }
         }
       }

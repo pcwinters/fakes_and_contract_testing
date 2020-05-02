@@ -35,7 +35,6 @@ it('will receive the list of current orders', async () => {
         },
         willRespondWith: {
             body: Matchers.eachLike({
-                id: Matchers.uuid(),
                 description: "my todo description"
             }),
             status: 200,
