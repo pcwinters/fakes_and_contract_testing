@@ -1,0 +1,17 @@
+{
+  "name": "todos-fake",
+  "version": "1.0.0",
+  "description": "A fake todos API",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.16.1"
+  },
+  "scripts": {
+    "start": "yarn run generate-db && yarn run json-server",
+    "generate-db": "node generateDb.js",
+    "json-server": "npx json-server --watch generated/db.json --port 3001"
+  }
+}
