@@ -1,0 +1,11 @@
+{
+  "name": "fakes_and_contract_testing",
+  "version": "1.0.0",
+  "description": "A monorepo demonstration of using contract testing with API fakes",
+  "main": "index.js",
+  "repository": "https://github.com/pcwinters/fakes_and_contract_testing",
+  "author": "pcwinters",
+  "license": "LicenseRef-LICENSE",
+  "private": true,
+  "workspaces": "packages/**/*"
+}
